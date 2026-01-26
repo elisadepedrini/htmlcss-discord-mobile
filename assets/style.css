@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#site_header {
+    background-color: #191d7b;
+}
+
+#site_main {
+    background-color: #191d7b;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.banner {
+    width: 512px;
+}
+
+.title {
+    font-family: "Sigmar", sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 2rem;
+    text-align: center;
+    padding: 4rem 5rem 0;
+    line-height: 2rem;
+}
+
+.paragraph {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 0 5rem ;
+    margin-top: 1rem;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.download {
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    background-color: white;
+    margin: 1rem 0;
+    padding: 16px;
+    border-radius: 16px;
+    border: none;
+    width: 21rem;
+}
+
+
+.open_discord {
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    color: white;
+    background-color: #5865f2;
+    padding: 16px;
+    border-radius: 16px;
+    border: none;
+    width: 21rem;
+}
+
+.cards {
+    background-color: #5865f2;
+    margin: 2rem 1.5rem 3rem;
+    border-radius: 25px; 
+}
+
+.cards-title {
+    font-family: "Sigmar", sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 2rem;
+    padding: 3rem 4rem 1rem 2rem;
+    line-height: 2rem;
+}
+
+.cards_text {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: white;
+    padding: 0 4rem 1rem 2rem;
+}
+
+.img_card {
+    padding: 0 1.5rem 3rem;
+}
+
+.img_card img{
+    width: 100%;
+    border-radius: 25px;
+}
