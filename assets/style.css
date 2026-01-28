@@ -69,7 +69,22 @@
 .cards {
     background: linear-gradient(#31338b, #5561ea);
     margin: 2rem 1.5rem 3rem;
-    border-radius: 25px; 
+    border-radius: 2rem;
+    position: relative; 
+}
+
+.cube {
+    position: absolute;
+    width: 6rem;
+    left: 2rem;
+    translate: 50% -50%;
+}
+
+.eyes {
+    position: absolute;
+    width: 6rem;
+    left: 2rem;
+    top: -50px;
 }
 
 .cards-title {
@@ -98,7 +113,8 @@
     border-radius: 25px;
 } */
 
-.video_demo {
+video {
     padding: 0 1.5rem 3rem;
     width: 512px;
+    border-radius: 2rem;
 }
